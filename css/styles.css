@@ -95,3 +95,18 @@ header div:nth-child(3){
     padding: 10px;
 }
 /* ---------------------End Introduction section------------------------------- */
+
+
+/* ----------------------Pr section------------------------------------------ */
+#pr{
+    margin-top: 5rem;
+}
+.pr-div{
+    padding: 1.4em;
+    margin: 2em;
+    background-color:rgba(247, 247, 243, .9);
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+/* ----------------------End Pr section------------------------------------- */
