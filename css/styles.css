@@ -1,6 +1,7 @@
 /* font-family: 'Pacifico', cursive; */
 /* font-family: 'Montserrat', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap');
 
 /* ---------------------------------General styles--------------------- */
 li{
@@ -17,7 +18,7 @@ header{
     background-color: rgb(200, 190, 190);
     height: 100vh;
 }
-header div h1{
+#brand h1{
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     font-weight: 700;
@@ -40,5 +41,57 @@ header div:nth-child(3){
 
 
 /* ---------------------Introduction section---------------------------------- */
-
+#eye-catch{
+    margin-top: 5rem;
+}
+#eye-catch h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4.4rem;
+}
+#eye-catch h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3.4em;
+}
+#eye-catch p{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+#eye-catch button{
+    padding: 20px;
+    margin: 20px;
+}
+#photo-div{
+    margin-top: 5rem;
+}
+#photo-div{
+    height: 25em;
+    width: 30em;
+    background-image: url("https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#photo-div div{
+    position: absolute;
+    width: 25em;
+    top: 40%;
+    background-color:rgba(247, 247, 243, .6);
+    border-radius: 20px;
+}
+#photo-div div img{
+    height: 130px;
+    padding: 1.2em;
+    border-radius: 50%;
+}
+#photo-div div h3{
+    display: inline;
+}
+#photo-div div p{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+}
 /* ---------------------End Introduction section------------------------------- */
