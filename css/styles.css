@@ -10,6 +10,13 @@ li{
 a{
     text-decoration: none;
 }
+
+.section-heading{
+    color:blue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
 /* ----------------------------End Genral section---------------------------- */
 
 
@@ -129,7 +136,7 @@ header div:nth-child(3){
 /* -----------------------Menu section------------------------------------ */
 
 /* --------------------------contact section------------------------------- */
-#contact{
+#contact form{
     background-color:rgba(247, 247, 243, .9);
     border-radius: 10px;
 }
