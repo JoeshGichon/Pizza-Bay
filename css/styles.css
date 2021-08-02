@@ -113,10 +113,18 @@ header div:nth-child(3){
 
 /* -----------------------Menu section------------------------------------ */
 .menu-item{
-    padding: 1.4em;
-    margin: 1em;
+    background-color:rgba(247, 247, 243, 1);
+    padding: 2em;
+    margin: 1.2em;
+    height: 30em;
+    width: 20em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
 }
 .menu-item img{
-    height: 100px;
+    /* display: none; */
+    height: 15em;
+    width: 250px;
+    border-radius: 10px;
 }
 /* -----------------------Menu section------------------------------------ */
