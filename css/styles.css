@@ -17,6 +17,11 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+.input-field{
+    margin-top: 1.2em;
+    background-color: blue;
+    border-radius: 10px;
+}
 /* ----------------------------End Genral section---------------------------- */
 
 

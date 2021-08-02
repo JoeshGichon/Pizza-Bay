@@ -1,3 +1,56 @@
+// --------------------------User interface-------------------
+function MenuItem(pizzaName,price,quantity){
+    this.pizzaName=pizzaName;
+    this.price=price;
+    this.quantity=quantity
+}
+var cheesePizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "cheese pizza";
+        price = 1000;
+        quantity = $("").val;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+var veggiePizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "veggie-Pizza";
+        price = 1200;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+var chickenPizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "chicken-pizza";
+        price = 1400;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+var pepperoniPizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "pepperoni-pizza";
+        price = 1100;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+var meatPizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "meat-pizza";
+        price = 1500;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+
+var margheritaPizza = new MenuItem(
+    $(document).ready(function(){
+        pizzaName = "margherita-pizza";
+        price = 2000;
+        return console.log(`This ${pizzaName} is worth ${price}`);
+    })
+);
+// ------------------------------End---------------------------
+
+
 // backend logic/business logic
 // forms data collection
 
