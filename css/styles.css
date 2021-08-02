@@ -122,9 +122,23 @@ header div:nth-child(3){
     box-shadow: 2px 2px 3px grey;
 }
 .menu-item img{
-    /* display: none; */
     height: 15em;
     width: 250px;
     border-radius: 10px;
 }
 /* -----------------------Menu section------------------------------------ */
+
+/* -----------------------Reviews Section---------------------------- */
+.review-div{
+    background-color:rgba(247, 247, 243, .9);
+    padding: 1.6em;
+    margin: 1.2em;
+    border-radius: 10px;
+}
+.review-div img{
+    /* display: none; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+/* -----------------------Reviews Section---------------------------- */
