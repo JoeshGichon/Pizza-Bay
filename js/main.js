@@ -57,7 +57,7 @@ var margheritaPizza = new MenuItem(
 // forms data collection
 
 $(document).ready(function(){
-    $("form").submit(function(event){
+    $("form#collect").submit(function(event){
         // preventing default form submission to itself
         event.preventDefault();
 
@@ -70,5 +70,104 @@ $(document).ready(function(){
         alert("Thank You" + " " + firstName + " " + lastName + " " + "for reaching you us.")
     });
     (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true)
+});
+
+// menu items form data collection
+
+
+$(document).ready(function(){
+    $("form#cheese-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#cheese-value").val()
+        console.log(qnt);
+        var prc = $("#cheese-price").change(function(){
+            var selectedCheesePizza = $("#cheese-price option:selected")
+            var cheesePrice = selectedCheesePizza.val();
+            return cheesePrice;
+        });
+        console.log(prc.val());
+    });
+});
+
+$(document).ready(function(){
+    $("form#Veggie-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#Veggie-value").val()
+        console.log(qnt);
+        var prc = $("#Veggie-price").change(function(){
+            var selectedVeggiePizza = $("#Veggie-price option:selected")
+            var veggiePrice = selectedCheesePizza.val();
+            return veggiePrice;
+        });
+        console.log(prc.val());
+    });
+});
+
+$(document).ready(function(){
+    $("form#Chicken-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#Chicken-value").val()
+        console.log(qnt);
+        var prc = $("#Chicken-price").change(function(){
+            var selectedChickenPizza = $("#Chicken-price option:selected")
+            var chickenPrice = selectedChickenPizza.val();
+            return chickenPrice;
+        });
+        console.log(prc.val());
+    });
+});
+
+$(document).ready(function(){
+    $("form#Pepperoni-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#Pepperoni-value").val()
+        console.log(qnt);
+        var prc = $("#Pepperoni-price").change(function(){
+            var selectedPepperoniPizza = $("#Pepperoni-price option:selected")
+            var pepperoniPrice = selectedPepperoni.val();
+            return pepperoniPrice;
+        });
+        console.log(prc.val());
+    });
+});
+
+$(document).ready(function(){
+    $("form#Meat-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#Meat-value").val()
+        console.log(qnt);
+        var prc = $("#Meat-price").change(function(){
+            var selectedMeatPizza = $("#Meat-price option:selected")
+            var meatPrice = selectedMeatPizza.val();
+            return meatPrice;
+        });
+        console.log(prc.val());
+    });
+});
+
+$(document).ready(function(){
+    $("form#Margherita-form").submit(function(event){
+        // preventing default form submission to itself
+        event.preventDefault();
+
+        var qnt = $("#Margherita-value").val()
+        console.log(qnt);
+        var prc = $("#Margherita-price").change(function(){
+            var selectedMargheritaPizza = $("#Margherita-price option:selected")
+            var margheritaPrice = selectedMargheritaPizza.val();
+            return margheritaPrice;
+        });
+        console.log(prc.val());
+    });
 });
 // -------------------End-----------------------------------
