@@ -8,7 +8,7 @@ var cheesePizza = new MenuItem(
     $(document).ready(function(){
         pizzaName = "cheese pizza";
         price = 1000;
-        quantity = $("").val;
+        quantity = $("#cheese-value").val();
         return console.log(`This ${pizzaName} is worth ${price}`);
     })
 );
