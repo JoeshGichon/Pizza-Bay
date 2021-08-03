@@ -88,6 +88,7 @@ $(document).ready(function(){
             return cheesePrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Cheese Pizza worth ${prc.val()*qnt}`);
     });
 });
 
@@ -104,6 +105,7 @@ $(document).ready(function(){
             return veggiePrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Veggie Pizza worth ${prc.val()*qnt}`);
     });
 });
 
@@ -120,6 +122,7 @@ $(document).ready(function(){
             return chickenPrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Chicken Pizza worth ${prc.val()*qnt}`);
     });
 });
 
@@ -136,6 +139,7 @@ $(document).ready(function(){
             return pepperoniPrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Pepperoni Pizza worth ${prc.val()*qnt}`);
     });
 });
 
@@ -152,6 +156,7 @@ $(document).ready(function(){
             return meatPrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Meat Pizza worth ${prc.val()*qnt}`);
     });
 });
 
@@ -168,6 +173,7 @@ $(document).ready(function(){
             return margheritaPrice;
         });
         console.log(prc.val());
+        alert(`You have ordered Margherita Pizza worth ${prc.val()*qnt}`);
     });
 });
 // -------------------End-----------------------------------
