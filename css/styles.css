@@ -139,6 +139,18 @@ header div:nth-child(3){
 }
 /* -----------------------Menu section------------------------------------ */
 
+/* -----------------Order styles-------------------------------- */
+#ordered{
+    margin-top: 5em;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 5em;
+    padding: 3rem;
+}
+/* -----------------End Order styles--------------------------- */
+
+
 /* --------------------------contact section------------------------------- */
 #contact form{
     background-color:rgba(247, 247, 243, .9);
