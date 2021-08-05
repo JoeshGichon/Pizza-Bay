@@ -24,10 +24,10 @@ var crustPrice = {
 };
   
 var toppingPrice = {
-    chickenHawaiian : 200,
-    cheeseBurger : 300,
+    chicken : 200,
+    Veggie : 300,
     pepperoni : 400,
-    veggie : 500,
+    Meat: 500,
 };
 
 let totalPrice = function(size,crust,topping,number) {
